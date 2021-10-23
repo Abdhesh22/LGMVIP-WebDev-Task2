@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.nav{
+  background-color: #1f1f1f;
+  display: flex;
+  justify-content: space-around;
+}
+.nav img{
+  width: 7rem;
+  height: 7rem;
+  background-color:unset;
+}
+.btndiv{
+  margin-top: 13%;
+}
+.gt-users{
+  width: 7rem;
+  padding: 1rem 1rem;
+  font-weight: bold;
+  background-color: #333333;
+  border: none;
+  border-radius: 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+.gt-users:hover{
+  color: #a09f9f;
+  cursor: pointer;
+  padding: 1.1rem 1.1rem;
+  font-weight: lighter;
+}
+.box{
+  border: 3px solid #808080;
+  width: 300px;
+  height: 300px;
+  background-color: #dfdbdb;
+  margin: 2%;
+  padding: 2rem;
+}
+.box img{
+  display: block;
+  width: 100%;
+  margin-top: 4%;
+  margin: auto;
+  border-radius: 12px;
+}
+.box h5,.box h6{
+  text-align: center;
+}
+.Box-container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
